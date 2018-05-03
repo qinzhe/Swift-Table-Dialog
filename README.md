@@ -10,7 +10,7 @@ How to use?
 2, Like this to show dialog
 
 ```
-let alert = UIAlertController(style: .actionSheet)
+        let alert = UIAlertController(style: .actionSheet)
         var infos: [LocaleInfo] = []
         for i in 100...500 {
             infos.append(LocaleInfo(country: "HH\(i)", selected: (i % 2 == 0)))
