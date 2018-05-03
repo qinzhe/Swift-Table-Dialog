@@ -6,7 +6,9 @@ Swift custom UIAlertController with Tableview select
 How to use?
 
 1, Drag TableDialog folder to your project
+
 2, Like this to show dialog
+
 ```
 let alert = UIAlertController(style: .actionSheet)
         var infos: [LocaleInfo] = []
@@ -35,6 +37,6 @@ let alert = UIAlertController(style: .actionSheet)
         }
         alert.addAction(title: "Cancel", style: .cancel)
         alert.show()
-        ```
+```
         
 Thanks dillidon/alerts-and-pickers (https://github.com/dillidon/alerts-and-pickers)
