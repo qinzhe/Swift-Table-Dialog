@@ -19,17 +19,13 @@ How to use?
         LocaleStore.fetch(info: infos) { [unowned self] result in
             switch result {
             case .success(let orderedInfo):
-                let data: [String: [LocaleInfo]] = orderedInfo
-                hh = data
+                hh = orderedInfo
             case .error(let error):
                 break
             }
             
         }
         alert.addLocalePicker(data: hh, type: .country) { info in
-            if(info?.count == 0) {
-                print("empty")
-            }
             for tmp in info! {
                 print(tmp.country)
             }
