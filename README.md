@@ -1,4 +1,4 @@
-# Swift-Table-Dialog
+# Swift-Table-Dialog qin
 Swift custom UIAlertController with Tableview select
 
 ![image](https://github.com/qinzhe/Swift-Table-Dialog/blob/master/QQ20180502-195630-HD.gif)
